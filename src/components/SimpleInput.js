@@ -1,4 +1,3 @@
-import { useState } from "react";
 import useInput from "../hooks/use-input";
 
 const SimpleInput = () => {
@@ -28,7 +27,7 @@ const SimpleInput = () => {
   const onSubmitHandler = (event) => {
     event.preventDefault();
     console.log(enteredName, enteredEmail);
-    
+
     nameResetHandler();
     emailResetHandler();
   };
